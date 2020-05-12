@@ -20,10 +20,11 @@ def services():
 def inventories():
     return render_template('inventories.html')
 
+
 @app.route('/contacts')
 def contacts():
     return render_template('contacts.html')
 
-@app.route('/data_visualization')
-def data_visualization():
-    return render_template('charts.html')
+@app.route('/visuals')
+def visuals():
+    return render_template('visuals.html')
